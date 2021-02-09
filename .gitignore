@@ -1,0 +1,5 @@
+.DS_Store
+/wp-content/themes/animogo-themes/assets/node_modules
+/wp-content/themes/animogo-themes/assets/.sass-cache
+/assets/node_modules
+/assets/.sass-cache
