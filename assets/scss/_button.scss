@@ -1,0 +1,40 @@
+.btn-white,
+.btn-green,
+.btn-black {
+  padding: 0.5em 1.25em;
+  transition: all 0.3s ease-in;
+}
+
+.btn-green {
+  background-color: $main-green;
+  color: #ffffff;
+
+  &:hover {
+    color: $main-green;
+    background-color: $secondary-green;
+  }
+}
+
+.btn-white {
+  background-color: #ffffff;
+  color: $black;
+
+  &:hover {
+    color: #ffffff;
+    background-color: $main-green;
+  }
+}
+
+.btn-big {
+  padding: 0.75em 1.25em;
+  font-size: 1.25em;
+}
+
+.btn-black {
+  color: #ffffff;
+  background-color: $black;
+  &:hover {
+    color: #ffffff;
+    background-color: $main-green;
+  }
+}

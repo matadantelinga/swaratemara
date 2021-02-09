@@ -1,0 +1,101 @@
+#hero-image {
+  position: relative;
+  margin-top: -160px;
+  .button-icon-wrapper {
+    display: flex;
+    justify-content: space-between;
+    position: absolute;
+    bottom: 50px;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 50%;
+    margin: 0 auto;
+    z-index: 6;
+    .button-item {
+      text-align: center;
+      .button-icon {
+        background: #fff;
+        border-radius: 12px;
+        padding: 1em;
+        width: 130px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin: 0 auto 10px;
+        img {
+          max-height: 80px;
+        }
+      }
+      .button-text {
+        font-size: 2em;
+        text-transform: capitalize;
+        color: #fff;
+        font-weight: 500;
+      }
+    }
+  }
+  .overlay {
+    background: rgb(162, 220, 175);
+    background: linear-gradient(
+      0deg,
+      rgba(162, 220, 175, 1) 0%,
+      rgba(162, 220, 175, 0) 53%
+    );
+    position: absolute;
+    bottom: 0;
+    z-index: 5;
+    width: 100%;
+    height: 25%;
+  }
+}
+
+.owl-dots {
+  position: absolute;
+  bottom: 32%;
+  z-index: 4;
+  text-align: center;
+  width: 100%;
+  .owl-dot {
+    margin: 0 5px;
+    &:first-child {
+      margin-left: 0;
+    }
+    span {
+      width: 15px;
+      height: 15px;
+      display: block;
+      border: solid 2px #ffffff;
+      border-radius: 100%;
+      -webkit-border-radius: 100%;
+    }
+    &.active {
+      span {
+        background: #ffffff;
+      }
+    }
+  }
+  @media (min-width: 1920px) {
+    bottom: 25%;
+  }
+  @media (min-width: 1400px) and (max-width: 1900px) {
+    bottom: 28%;
+  }
+}
+
+#cta-section {
+  background: url(../images/cta-banner.png) left center no-repeat;
+  background-size: cover;
+  height: 350px;
+
+  .cta-text {
+    font-weight: bold;
+    color: #ffffff;
+    font-size: 48px;
+    margin-bottom: 0.5em;
+  }
+}
+
+
+#social-section {
+  padding: 4em 0 2em;
+}
