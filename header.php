@@ -7,7 +7,7 @@
   <meta name="keywords" content="Ogani, unica, creative, html" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <meta http-equiv="X-UA-Compatible" content="ie=edge" />
-  <title>Animogo - Website</title>
+  <title>Swaratemara - Website</title>
 
   <!-- Css Styles -->
   <link rel="stylesheet" href="./assets/css/bootstrap.min.css" type="text/css" />
@@ -30,22 +30,19 @@
   <header>
     <div class="container">
       <div class="row align-items-center">
-        <div class="col-md-3">
+        <div class="col-md-2">
           <div class="logo-wrapper">
             <a href="#">
-              <img src="./assets/images/logo.png" alt="logo">
+              <img src="./assets/images/logo.svg" alt="logo">
             </a>
           </div>
         </div>
-        <div class="col-md-9">
+        <div class="col-md-10">
           <div class="nav-wrapper">
             <ul class="d-flex">
               <li><a href="index.php">Home</a></li>
-              <li><a href="whatsnew.php">What's New</a></li>
-              <li><a href="merchant.php">Merchant</a></li>
-              <li><a href="promo.php">Promo</a></li>
-              <li><a href="#" data-toggle="modal" data-target="#form-join">Join Partner</a></li>
-              <li class="icon-nav"><a href="#"><img src="./assets/images/icon-login.png" alt=""> Login</a></li>
+              <li><a href="about.php">About</a></li>
+              <li><a href="experience.php">Experience</a></li>
             </ul>
           </div>
         </div>
