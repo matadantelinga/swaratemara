@@ -1,0 +1,35 @@
+#hero-image {
+  .page-title {
+    p {
+      text-align: center;
+      font-size: 20px;
+    }
+    font-size: 68px;
+    font-weight: 500;
+    color: #ffffff;
+    position: absolute;
+    left: 50%;
+    top: 85%;
+    transform: translate(-50%, -70%);
+    text-transform: uppercase;
+  }
+}
+
+.content-wrapper {
+  padding-top: 20px;
+  .container {
+    .card-item {
+      padding-bottom: 20px;
+      padding-left: 10px;
+      padding-right: 10px;
+      .card-image {
+        img {
+          width: 100%;
+        }
+      }
+    }
+    .desc-image {
+      text-align: justify;
+    }
+  }
+}

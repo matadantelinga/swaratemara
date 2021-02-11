@@ -1,4 +1,4 @@
-@import url(../webfonts/fonts.css);
+@import "../webfonts/fonts.css";
 body {
   font-size: 16px;
   font-weight: 300;
@@ -72,6 +72,11 @@ button:focus {
 
 .content-padding {
   padding: 2em 0;
+}
+
+.no-padding {
+  padding: 0;
+  margin: 0;
 }
 
 .full-height {
@@ -389,6 +394,51 @@ form select {
 }
 form select:focus {
   outline: none;
+}
+
+#hero-image .page-title {
+  font-size: 68px;
+  font-weight: 500;
+  color: #ffffff;
+  position: absolute;
+  left: 50%;
+  top: 85%;
+  transform: translate(-50%, -70%);
+  text-transform: uppercase;
+}
+#hero-image .page-title p {
+  text-align: center;
+  font-size: 20px;
+}
+
+.content-wrapper {
+  padding-top: 20px;
+}
+.content-wrapper .container .card-item {
+  padding-bottom: 20px;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+.content-wrapper .container .card-item .card-image img {
+  width: 100%;
+}
+.content-wrapper .container .desc-image {
+  text-align: justify;
+}
+
+.content-wrapper .card-title {
+  font-size: 68px;
+  font-weight: 500;
+  color: #ffffff;
+  position: absolute;
+  left: 50%;
+  top: 60%;
+  transform: translate(-50%, -70%);
+  text-transform: uppercase;
+}
+.content-wrapper .card-title p {
+  text-align: center;
+  font-size: 20px;
 }
 
 /*# sourceMappingURL=style.css.map */
