@@ -59,9 +59,9 @@ button {
 
 .page-hero-image {
   position: relative;
-  margin-top: -160px;
+  margin-top: -140px;
   .page-image {
-    height: 400px;
+    height: 600px;
     img {
       max-width: 100%;
     }
@@ -75,6 +75,7 @@ button {
     top: 70%;
     transform: translate(-50%, -70%);
     text-transform: uppercase;
+    font-family: $main-font;
   }
 }
 
@@ -122,8 +123,54 @@ button {
   font-family: $main-font;
 }
 
+.post-image-container {
+  .section-title {
+    font-family: $main-font;
+    margin-bottom: 1.25em;
+  }
+  .post-image-item {
+    position: relative;
+    cursor: pointer;
+    .post-image {
+      margin: 2em 0 2em;
+      background-position: center;
+      background-size: cover;
+      background-repeat: no-repeat;
+      height: 350px;
+      width: 100%;
+      -webkit-filter: grayscale(70%);
+      filter: 70%;
+      transition: all 0.3s ease;
+    }
+    &:hover {
+      .post-image {
+        -webkit-filter: grayscale(0%);
+        filter: 0%;
+      }
+    }
+  }
+  .post-title {
+    text-transform: uppercase;
+    font-family: $main-font;
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    font-size: 22px;
+    color: #ffffff;
+  }
+}
+
 @import "header-footer";
 @import "homepage";
 @import "about";
+@import "experience";
 @import "button";
 @import "form";
+@import "single-article";
+@import "event";
+@import "mice"

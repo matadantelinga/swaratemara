@@ -46,6 +46,31 @@
             </ul>
           </div>
         </div>
+        <div class="tab-mobile-only">
+          <div class="d-flex align-items-center">
+            <div class="logo-wrapper">
+              <a href="#">
+                <img src="./assets/images/logo.svg" alt="logo">
+              </a>
+            </div>
+            <div id="humburgerBtn">
+              <span></span>
+              <span></span>
+              <span></span>
+            </div>
+          </div>
+          <div id="mobileNav">
+            <div class="mobileCloser">
+              closer(x)
+            </div>
+            <ul class="d-flex">
+              <li><a href="index.php">Home</a></li>
+              <li><a href="about.php">About</a></li>
+              <li><a href="experience.php">Experience</a></li>
+            </ul>
+          </div>
+        </div>
       </div>
     </div>
   </header>
+</body>

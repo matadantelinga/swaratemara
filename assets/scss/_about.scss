@@ -1,0 +1,23 @@
+#about-us.page-hero-image {
+  .page-image {
+    background: url(../images/banner-about.jpg)center top no-repeat;
+    background-size: cover;
+  }
+}
+
+.content-wrapper{
+  padding-top: 60px;
+  padding-bottom: 30px;
+  .page-title {
+    padding-top: 20px;
+   
+  }
+
+  p {
+    padding-bottom: 10px;
+  }
+
+  ol {
+    padding-left: 15px;
+  }
+}

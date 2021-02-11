@@ -1,4 +1,4 @@
-@import url(../webfonts/fonts.css);
+@import "../webfonts/fonts.css";
 body {
   font-size: 16px;
   font-weight: 300;
@@ -51,10 +51,10 @@ button:focus {
 
 .page-hero-image {
   position: relative;
-  margin-top: -160px;
+  margin-top: -140px;
 }
 .page-hero-image .page-image {
-  height: 400px;
+  height: 600px;
 }
 .page-hero-image .page-image img {
   max-width: 100%;
@@ -68,6 +68,7 @@ button:focus {
   top: 70%;
   transform: translate(-50%, -70%);
   text-transform: uppercase;
+  font-family: "libel suit", sans-serif;
 }
 
 .content-padding {
@@ -109,6 +110,44 @@ button:focus {
 
 .font-main {
   font-family: "libel suit", sans-serif;
+}
+
+.post-image-container .section-title {
+  font-family: "libel suit", sans-serif;
+  margin-bottom: 1.25em;
+}
+.post-image-container .post-image-item {
+  position: relative;
+  cursor: pointer;
+}
+.post-image-container .post-image-item .post-image {
+  margin: 2em 0 2em;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 350px;
+  width: 100%;
+  -webkit-filter: grayscale(70%);
+  filter: 70%;
+  transition: all 0.3s ease;
+}
+.post-image-container .post-image-item:hover .post-image {
+  -webkit-filter: grayscale(0%);
+  filter: 0%;
+}
+.post-image-container .post-title {
+  text-transform: uppercase;
+  font-family: "libel suit", sans-serif;
+  position: absolute;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  font-size: 22px;
+  color: #ffffff;
 }
 
 header {
@@ -159,6 +198,47 @@ header .nav-wrapper ul li a:hover {
   text-decoration: underline;
   transition: all 3s ease-out;
   color: #53d3f4;
+}
+header .tab-mobile-only {
+  display: none;
+}
+@media (min-width: 768px) and (max-width: 1024px) and (orientation: portrait) {
+  header .tab-mobile-only {
+    display: block;
+  }
+}
+@media (max-width: 767px) {
+  header .tab-mobile-only {
+    display: block;
+  }
+  header .header-logo img {
+    height: 25px;
+  }
+}
+header #humburgerBtn span {
+  display: block;
+  background: #000;
+  height: 3px;
+  width: 20px;
+  margin-bottom: 3px;
+}
+header #humburgerBtn span:last-child {
+  margin-bottom: 0;
+}
+header #mobileNav {
+  display: none;
+  position: fixed;
+  z-index: 999;
+  background: #fff;
+  width: 100%;
+  height: 100%;
+  left: 0;
+  top: 0;
+}
+header .mobileCloser {
+  font-size: 12px;
+  text-align: right;
+  padding-top: 5px;
 }
 
 footer {
@@ -321,8 +401,27 @@ footer .newsletter-form .btn-gray {
   padding: 4em 0 2em;
 }
 
-#whats-new.page-hero-image .page-image {
-  background: url(../images/banner-whatsnew.png) center top no-repeat;
+#about-us.page-hero-image .page-image {
+  background: url(../images/banner-about.jpg) center top no-repeat;
+  background-size: cover;
+}
+
+.content-wrapper {
+  padding-top: 60px;
+  padding-bottom: 30px;
+}
+.content-wrapper .page-title {
+  padding-top: 20px;
+}
+.content-wrapper p {
+  padding-bottom: 10px;
+}
+.content-wrapper ol {
+  padding-left: 15px;
+}
+
+#experience.page-hero-image .page-image {
+  background: url(../images/banner-exp.jpg) center top no-repeat;
   background-size: cover;
 }
 
@@ -389,6 +488,26 @@ form select {
 }
 form select:focus {
   outline: none;
+}
+
+#single-article.page-hero-image .page-image {
+  background: url(../images/banner-article.jpg) center top no-repeat;
+  background-size: cover;
+}
+
+.content-wrapper p {
+  margin-top: 1.5em;
+  margin-bottom: 4em;
+}
+
+#event.page-hero-image .page-image {
+  background: url(../images/banner-event.jpg) center top no-repeat;
+  background-size: cover;
+}
+
+#mice.page-hero-image .page-image {
+  background: url(../images/banner-mice.jpg) center top no-repeat;
+  background-size: cover;
 }
 
 /*# sourceMappingURL=style.css.map */
