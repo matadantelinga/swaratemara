@@ -62,7 +62,7 @@
           &copy; Copyright 2021 Swaratemara. All Rights Reserved.
         </div>
       </div>
-      <?php include "inc/join-partner.php"; ?>
+      
     </footer>
     </body>
 
