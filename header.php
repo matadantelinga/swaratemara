@@ -31,14 +31,14 @@
     <div class="navigation-wrapper">
       <div class="container">
         <div class="row align-items-center">
-          <div class="col-md-2 dekstop-only">
+          <div class="col-md-2 desktop-only">
             <div class="logo-wrapper">
               <a href="#">
                 <img src="./assets/images/logo.svg" alt="logo">
               </a>
             </div>
           </div>
-          <div class="col-md-10 dekstop-only">
+          <div class="col-md-10 desktop-only">
             <div class="nav-wrapper">
               <ul class="d-flex">
                 <li><a href="index.php">Home</a></li>
@@ -54,7 +54,7 @@
                   <img src="./assets/images/logo.svg" alt="logo">
                 </a>
               </div>
-              <div id="humburgerBtn">
+              <div id="humburgerBtn" >
                 <span></span>
                 <span></span>
                 <span></span>

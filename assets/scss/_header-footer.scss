@@ -53,26 +53,17 @@ header {
 }
 
 .navigation-wrapper {
-  .tab-mobile-only {
-    display: none;
+  .tab-mobile-only{
+    width: 100%;
   }
-  @media(min-width: 768px) and (max-width: 1024px) and (orientation: portrait) {
+  @media (min-width: 768px) and (max-width: 1024px) and (orientation: portrait) {
     .desktop-only {
       display: none;
-    }
-    .tab-mobile-only {
-      display: block;
     }
   }
   @media (max-width: 767px) {
     padding: 15px 0;
-    
-    .desktop-only {
-      display: none;
-    }
-    .tab-mobile-only {
-      display: block;
-    }
+
     .header-logo {
       img {
         height: 25px;
@@ -82,9 +73,14 @@ header {
 }
 
 #humburgerBtn {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  size: 60px;
   span {
     display: block;
-    background: #000;
+    background: rgb(255, 255, 255);
     height: 3px;
     width: 20px;
     margin-bottom: 3px;

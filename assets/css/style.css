@@ -119,7 +119,6 @@ button:focus {
 
 .post-image-container .section-content P {
   text-align: center;
-  padding-top: 100px;
 }
 .post-image-container .section-title {
   font-family: "libel suit", sans-serif;
@@ -159,6 +158,24 @@ button:focus {
   color: #ffffff;
 }
 
+.tab-mobile-only {
+  display: none;
+}
+
+@media (min-width: 768px) and (max-width: 1024px) and (orientation: portrait) {
+  .tab-mobile-only {
+    display: block;
+  }
+}
+@media (max-width: 767px) {
+  .desktop-only {
+    display: none;
+  }
+
+  .tab-mobile-only {
+    display: block;
+  }
+}
 header {
   font-weight: bold;
   z-index: 2;
@@ -210,34 +227,32 @@ header .nav-wrapper ul li a:hover {
 }
 
 .navigation-wrapper .tab-mobile-only {
-  display: none;
+  width: 100%;
 }
 @media (min-width: 768px) and (max-width: 1024px) and (orientation: portrait) {
   .navigation-wrapper .desktop-only {
     display: none;
-  }
-  .navigation-wrapper .tab-mobile-only {
-    display: block;
   }
 }
 @media (max-width: 767px) {
   .navigation-wrapper {
     padding: 15px 0;
   }
-  .navigation-wrapper .desktop-only {
-    display: none;
-  }
-  .navigation-wrapper .tab-mobile-only {
-    display: block;
-  }
   .navigation-wrapper .header-logo img {
     height: 25px;
   }
 }
 
+#humburgerBtn {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  size: 60px;
+}
 #humburgerBtn span {
   display: block;
-  background: #000;
+  background: white;
   height: 3px;
   width: 20px;
   margin-bottom: 3px;
