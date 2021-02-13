@@ -1,16 +1,6 @@
-.content-wrapper {
-  .card-title{
-    p {
-      text-align: center;
-      font-size: 20px;
-    }
-    font-size: 68px;
-    font-weight: 500;
-    color: #ffffff;
-    position: absolute;
-    left: 50%;
-    top: 60%;
-    transform: translate(-50%, -70%);
-    text-transform: uppercase;
+#whats-new.page-hero-image {
+  .page-image {
+    background: url(../images/banner-whatsnew.jpg)center top no-repeat;
+    background-size: cover;
   }
 }

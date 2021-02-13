@@ -1,58 +1,50 @@
-<?php include "header.php"; ?>
-<section id="hero-image">
-  <div id="hero-slider" class="owl-carousel">
-    <div class="event-detail-banner">
-      <img src="./assets/images/banner-event2.jpg" alt="">
-      <div class="page-title">
-        event name
-        <p>dd-mm-yyyy</p>
-      </div>
-    </div>
+<?php include "header.php" ?>
+<section id="event-detail" class="page-hero-image">
+  <div class="page-image">
+  </div>
+  <div class="page-title">EVENT NAME
   </div>
 </section>
-<section class="content-wrapper">
+
+<section class="post-image-container content-wrapper">
   <div class="container">
-    <div class="row justify-content-center">
-      <div class="col-md-4 no-padding ">
-        <div class="card-item ">
-          <div class="card-image">
-            <img src="./assets/images/dummy-post3.jpg" alt="">
+    <div class="row">
+      <div class="col-md-4">
+        <div class="post-image-item">
+          <div class="post-image" style="background: url(./assets/images/dummy-post.jpg)">
+          </div>
+          <div class="post-title">Dummy title
           </div>
         </div>
       </div>
-      <div class="col-md-8 no-padding align-self-center">
-        <div class="card-item">
-          <div class="desc-image">
-            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Non veritatis fugiat quaerat magnam totam eligendi reprehenderit ratione, excepturi, vero a quas numquam beatae voluptatem dicta laudantium pariatur obcaecati unde illum.
-            <br>
-            <br>
-            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Enim, delectus id saepe deserunt voluptas laborum soluta modi itaque nulla dolores laboriosam atque? Eveniet repellat reprehenderit hic quisquam accusamus, cumque similique.
-          </div>
+      <div class="col-md-8">
+        <div class="section-content">
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris a
+          tortor vestibulum, accumsan ligula ut, lobortis nisl.
+          Curabitur sit amet mollis tellus vel, ornare massa. Quisque
+          efficitur gravida ligula, eu lobortis arcu lacinia ac.
+          Pellentesque
+          non tempor lectus. Aliquam volutpat ex dapibus diam elementum, non
+          pretium massa convallis.</p>
         </div>
       </div>
     </div>
-
-    <div class="row justify-content-center">
-      <div class="col-md-4 no-padding">
-        <div class="card-item">
-          <div class="card-image">
-            <img src="./assets/images/dummy-post2.jpg" alt="">
+    <div class="row">
+      <div class="col-md-4">
+        <div class="post-image-item">
+          <div class="post-image" style="background: url(./assets/images/dummy-post.jpg)">
+          </div>
+          <div class="post-title">Dummy title
           </div>
         </div>
       </div>
-      <div class="col-md-8 no-padding ">
-        <div class="card-item">
-          <div class="card-image">
-            <div class="embed-responsive embed-responsive-21by9">
-              <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/tv7Hyz4hqm0"></iframe>
-            </div>
+      <div class="col-md-8">
+        <div class="post-image-item">
+          <div class="post-image" style="background: url(./assets/images/banner-event.jpg)">
           </div>
         </div>
       </div>
     </div>
   </div>
-
 </section>
-<section class="content-padding">
-  <?php include "footer.php"; ?>
-  
+<?php include "footer.php" ?>

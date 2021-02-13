@@ -117,6 +117,10 @@ button:focus {
   font-family: "libel suit", sans-serif;
 }
 
+.post-image-container .section-content P {
+  text-align: center;
+  padding-top: 100px;
+}
 .post-image-container .section-title {
   font-family: "libel suit", sans-serif;
   margin-bottom: 1.25em;
@@ -204,33 +208,45 @@ header .nav-wrapper ul li a:hover {
   transition: all 3s ease-out;
   color: #53d3f4;
 }
-header .tab-mobile-only {
+
+.navigation-wrapper .tab-mobile-only {
   display: none;
 }
 @media (min-width: 768px) and (max-width: 1024px) and (orientation: portrait) {
-  header .tab-mobile-only {
+  .navigation-wrapper .desktop-only {
+    display: none;
+  }
+  .navigation-wrapper .tab-mobile-only {
     display: block;
   }
 }
 @media (max-width: 767px) {
-  header .tab-mobile-only {
+  .navigation-wrapper {
+    padding: 15px 0;
+  }
+  .navigation-wrapper .desktop-only {
+    display: none;
+  }
+  .navigation-wrapper .tab-mobile-only {
     display: block;
   }
-  header .header-logo img {
+  .navigation-wrapper .header-logo img {
     height: 25px;
   }
 }
-header #humburgerBtn span {
+
+#humburgerBtn span {
   display: block;
   background: #000;
   height: 3px;
   width: 20px;
   margin-bottom: 3px;
 }
-header #humburgerBtn span:last-child {
+#humburgerBtn span:last-child {
   margin-bottom: 0;
 }
-header #mobileNav {
+
+#mobileNav {
   display: none;
   position: fixed;
   z-index: 999;
@@ -240,7 +256,8 @@ header #mobileNav {
   left: 0;
   top: 0;
 }
-header .mobileCloser {
+
+.mobileCloser {
   font-size: 12px;
   text-align: right;
   padding-top: 5px;
@@ -418,9 +435,6 @@ footer .newsletter-form .btn-gray {
 .content-wrapper .page-title {
   padding-top: 20px;
 }
-.content-wrapper p {
-  padding-bottom: 10px;
-}
 .content-wrapper ol {
   padding-left: 15px;
 }
@@ -500,11 +514,6 @@ form select:focus {
   background-size: cover;
 }
 
-.content-wrapper p {
-  margin-top: 1.5em;
-  margin-bottom: 4em;
-}
-
 #event.page-hero-image .page-image {
   background: url(../images/banner-event.jpg) center top no-repeat;
   background-size: cover;
@@ -515,49 +524,24 @@ form select:focus {
   background-size: cover;
 }
 
-#hero-image .page-title {
-  font-size: 68px;
-  font-weight: 500;
-  color: #ffffff;
-  position: absolute;
-  left: 50%;
-  top: 85%;
-  transform: translate(-50%, -70%);
-  text-transform: uppercase;
-}
-#hero-image .page-title p {
-  text-align: center;
-  font-size: 20px;
+#event-detail.page-hero-image .page-image {
+  background: url(../images/banner-event2.jpg) center top no-repeat;
+  background-size: cover;
 }
 
-.content-wrapper {
-  padding-top: 20px;
-}
-.content-wrapper .container .card-item {
-  padding-bottom: 20px;
-  padding-left: 10px;
-  padding-right: 10px;
-}
-.content-wrapper .container .card-item .card-image img {
-  width: 100%;
-}
-.content-wrapper .container .desc-image {
-  text-align: justify;
+#whats-new.page-hero-image .page-image {
+  background: url(../images/banner-whatsnew.jpg) center top no-repeat;
+  background-size: cover;
 }
 
-.content-wrapper .card-title {
-  font-size: 68px;
-  font-weight: 500;
-  color: #ffffff;
-  position: absolute;
-  left: 50%;
-  top: 60%;
-  transform: translate(-50%, -70%);
-  text-transform: uppercase;
+#Faq-page.page-hero-image .page-image {
+  background: url(../images/banner-article.jpg) center top no-repeat;
+  background-size: cover;
 }
-.content-wrapper .card-title p {
-  text-align: center;
-  font-size: 20px;
+
+#Tnc.page-hero-image .page-image {
+  background: url(../images/banner-about.jpg) center top no-repeat;
+  background-size: cover;
 }
 
 /*# sourceMappingURL=style.css.map */

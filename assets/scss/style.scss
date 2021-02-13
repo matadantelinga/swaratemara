@@ -128,6 +128,12 @@ button {
 }
 
 .post-image-container {
+  .section-content {
+    P {
+      text-align: center;
+      padding-top: 100px;
+    }
+  }
   .section-title {
     font-family: $main-font;
     margin-bottom: 1.25em;
@@ -180,3 +186,5 @@ button {
 @import "mice";
 @import "event-detail";
 @import "whats-new";
+@import "FAQ";
+@import "TNC"
