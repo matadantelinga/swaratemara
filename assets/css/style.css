@@ -168,6 +168,10 @@ button:focus {
   }
 }
 @media (max-width: 767px) {
+  .page-hero-image {
+    text-align: center;
+  }
+
   .desktop-only {
     display: none;
   }
@@ -233,10 +237,40 @@ header .nav-wrapper ul li a:hover {
   .navigation-wrapper .desktop-only {
     display: none;
   }
+  .navigation-wrapper .mobileCloser {
+    justify-content: right;
+    align-self: center;
+    padding-right: 40px;
+  }
+  .navigation-wrapper .logo-wrapper {
+    justify-content: start;
+  }
+  .navigation-wrapper ul {
+    padding: 10px 0;
+    text-align: center;
+  }
+  .navigation-wrapper ul li {
+    padding: 10px 0;
+  }
 }
 @media (max-width: 767px) {
-  .navigation-wrapper {
-    padding: 15px 0;
+  .navigation-wrapper #humburgerBtn {
+    padding-right: 30px;
+  }
+  .navigation-wrapper .mobileCloser {
+    justify-content: right;
+    align-self: center;
+    padding-right: 40px;
+  }
+  .navigation-wrapper .logo-wrapper img {
+    max-height: 50px;
+  }
+  .navigation-wrapper ul {
+    padding: 10px 0;
+    text-align: center;
+  }
+  .navigation-wrapper ul li {
+    padding: 10px 0;
   }
   .navigation-wrapper .header-logo img {
     height: 25px;
@@ -248,7 +282,6 @@ header .nav-wrapper ul li a:hover {
   display: flex;
   flex-direction: column;
   align-items: flex-end;
-  size: 60px;
 }
 #humburgerBtn span {
   display: block;
@@ -271,8 +304,7 @@ header .nav-wrapper ul li a:hover {
   left: 0;
   top: 0;
 }
-
-.mobileCloser {
+#mobileNav .mobileCloser {
   font-size: 12px;
   text-align: right;
   padding-top: 5px;
@@ -386,7 +418,17 @@ footer .newsletter-form .btn-gray {
   color: #fff;
   font-weight: 500;
 }
+@media (max-width: 767px) {
+  #hero-image {
+    margin-top: 0;
+  }
+}
 
+@media (max-width: 767px) {
+  .content-padding {
+    padding: 1em 0;
+  }
+}
 .owl-dots {
   position: absolute;
   bottom: 32%;

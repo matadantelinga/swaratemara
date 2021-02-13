@@ -54,17 +54,24 @@
                   <img src="./assets/images/logo.svg" alt="logo">
                 </a>
               </div>
-              <div id="humburgerBtn" >
+              <div id="humburgerBtn">
                 <span></span>
                 <span></span>
                 <span></span>
               </div>
             </div>
             <div id="mobileNav">
-              <div class="mobileCloser">
-                closer(x)
+              <div class="d-flex justify-content-between">
+                <div class="logo-wrapper">
+                  <a href="#">
+                    <img src="./assets/images/logo.svg" alt="logo">
+                  </a>
+                </div>
+                <div class="mobileCloser">
+                  closer(x)
+                </div>
               </div>
-              <ul class="d-flex">
+              <ul>
                 <li><a href="index.php">Home</a></li>
                 <li><a href="about.php">About</a></li>
                 <li><a href="experience.php">Experience</a></li>

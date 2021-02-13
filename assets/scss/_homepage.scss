@@ -34,6 +34,15 @@
       }
     }
   }
+  @media (max-width: 767px) {
+    margin-top: 0;
+  }
+}
+
+@media (max-width: 767px) {
+  .content-padding {
+    padding: 1em 0;
+  }
 }
 
 .owl-dots {
@@ -81,7 +90,6 @@
     margin-bottom: 0.5em;
   }
 }
-
 
 #social-section {
   padding: 4em 0 2em;

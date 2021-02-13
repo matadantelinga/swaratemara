@@ -184,6 +184,9 @@ button {
   }
 }
 @media (max-width: 767px) {
+  .page-hero-image{
+    text-align: center;
+  }
   .desktop-only {
     display: none;
   }
