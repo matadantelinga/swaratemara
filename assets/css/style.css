@@ -171,6 +171,12 @@ button:focus {
   .page-hero-image {
     text-align: center;
   }
+  .page-hero-image .page-title {
+    font-size: 38px;
+  }
+  .page-hero-image .page-image {
+    height: 380px;
+  }
 
   .desktop-only {
     display: none;
