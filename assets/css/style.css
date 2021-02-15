@@ -480,6 +480,24 @@ footer .newsletter-form .btn-gray {
   padding: 4em 0 2em;
 }
 
+#home-video {
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+#home-video .video-holder img {
+  width: 100%;
+  height: 500px;
+}
+#home-video .text-big {
+  font-family: "libel suit", sans-serif;
+  font-size: 30px;
+  padding-top: 30px;
+}
+#home-video .text-title {
+  padding-top: 30px;
+}
+
 #about-us.page-hero-image .page-image {
   background: url(../images/banner-about.jpg) center top no-repeat;
   background-size: cover;
