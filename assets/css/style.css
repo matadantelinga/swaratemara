@@ -117,6 +117,10 @@ button:focus {
   font-family: "libel suit", sans-serif;
 }
 
+.post-image-container .section-title {
+  font-size: 30px;
+  font-family: "libel suit", sans-serif;
+}
 .post-image-container .section-content P {
   text-align: center;
 }
@@ -493,7 +497,6 @@ footer .newsletter-form .btn-gray {
 }
 #home-video .video-holder img {
   width: 100%;
-  height: 500px;
 }
 #home-video .text-big {
   font-family: "libel suit", sans-serif;
@@ -502,6 +505,17 @@ footer .newsletter-form .btn-gray {
 }
 #home-video .text-title {
   padding-top: 30px;
+}
+
+#home-services {
+  background-size: cover !important;
+  height: 600px;
+}
+
+#ig-feed .section-title {
+  font-size: 30px;
+  font-family: "libel suit", sans-serif;
+  text-align: center;
 }
 
 #about-us.page-hero-image .page-image {
