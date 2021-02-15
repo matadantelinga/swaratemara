@@ -186,6 +186,12 @@ button {
 @media (max-width: 767px) {
   .page-hero-image{
     text-align: center;
+    .page-title{
+      font-size: 38px;
+    }
+    .page-image{
+      height: 380px;
+    }
   }
   .desktop-only {
     display: none;
