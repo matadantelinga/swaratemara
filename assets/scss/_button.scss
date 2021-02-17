@@ -1,8 +1,10 @@
-.btn-white,
 .btn-blue,
-.btn-gray {
+.btn-gray,
+.btn-line-gray {
   padding: 0.5em 1.25em;
+  font-family: $main-font;
   transition: all 0.3s ease-in;
+  text-transform: uppercase;
 }
 
 .btn-blue {
@@ -12,16 +14,6 @@
   &:hover {
     color: $main-blue;
     background-color: $gray;
-  }
-}
-
-.btn-white {
-  background-color: #ffffff;
-  color: $gray;
-
-  &:hover {
-    color: #ffffff;
-    background-color: $main-blue;
   }
 }
 
@@ -38,3 +30,14 @@
     background-color: $main-blue;
   }
 }
+
+.btn-line-gray {
+  color: $gray;
+  border: solid 1px $gray;
+  background: transparent;
+  &:hover {
+    color: #ffffff;
+    background-color: $main-blue;
+  }
+}
+

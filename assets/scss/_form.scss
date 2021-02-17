@@ -1,5 +1,28 @@
 form {
+  &.form-linestyle {
+    label {
+      margin-bottom: 0;
+    }
+    .form-control {
+      border-top: none;
+      border-right: none;
+      border-left: none;
+      border-bottom: solid 1px #cecece;
+      padding-top: 0;
+      &:focus {
+        border-top: none;
+        border-right: none;
+        border-left: none;
+        border-bottom: solid 1px #000;
+      }
+    }
+  }
   .input-group {
+    text-align: left;
+    margin-bottom: 20px;
+    label {
+      width: 100%;
+    }
     .form-control {
       border-radius: 0px;
     }
