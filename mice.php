@@ -18,7 +18,27 @@
           pretium massa convallis.
         </p>
         <div class="text-center">
-          <a href="#" class="btn btn-primary">Partnership</a>
+          <a href="#" class="btn btn-primary" data-toggle="modal" data-target="#exampleModalCenter">
+            Partnership
+          </a>
+          <!-- Modal -->
+          <div class="modal fade" id="exampleModalCenter" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+            <div class="modal-dialog modal-dialog-centered" role="document">
+              <div class="modal-content">
+                <div class="modal-header">
+                  <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                  </button>
+                </div>
+                <div class="modal-body">
+                  <img src="./assets/images/dummy-post2.jpg" class="rounded float-left" width="100px" height="auto" alt="img.fluid">
+                </div>
+                <div class="modal-footer">
+                  <button type="button" class="btn btn-primary">REQUEST PARTNERSHIP</button>
+                </div>
+              </div>
+            </div>
+          </div>
         </div>
       </div>
     </div>

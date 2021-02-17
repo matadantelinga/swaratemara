@@ -3,7 +3,7 @@
   <div class="page-image">
   </div>
   <div class="page-title">
-    experience
+      EXPERIENCE
   </div>
 </section>
 
@@ -14,7 +14,7 @@
         <div class="post-image-item">
           <div class="post-image" style="background: url(./assets/images/dummy-post.jpg)">
           </div>
-          <div class="post-title">Dummy Title
+          <div class="post-title">EVENT NAME
             <div>
             </div>
           </div>
@@ -24,7 +24,7 @@
         <div class="post-image-item">
           <div class="post-image" style="background: url(./assets/images/dummy-post2.jpg)">
           </div>
-          <div class="post-title">Dummy Title
+          <div class="post-title">EVENT NAME
             <div>
             </div>
           </div>
@@ -34,7 +34,7 @@
         <div class="post-image-item">
           <div class="post-image" style="background: url(./assets/images/dummy-post3.jpg)">
           </div>
-          <div class="post-title">Dummy Title
+          <div class="post-title">EVENT NAME
             <div>
             </div>
           </div>
