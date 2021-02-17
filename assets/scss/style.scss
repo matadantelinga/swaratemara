@@ -117,6 +117,17 @@ button {
   padding: 1rem 1.25rem;
 }
 
+.modal-fade .modal-header {
+  display: flex;
+  -ms-flex-align: start;
+  align-items: flex-start;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  padding: 1rem;
+  border-top-left-radius: 3rem;
+  border-top-right-radius: 3rem;
+}
+
 .fullScreen-image {
   img {
     max-width: 100%;
@@ -177,6 +188,12 @@ button {
     font-size: 22px;
     color: #ffffff;
   }
+}
+
+.section-title {
+  font-size: 30px;
+  font-family: $main-font;
+  text-align: center;
 }
 
 .tab-mobile-only {

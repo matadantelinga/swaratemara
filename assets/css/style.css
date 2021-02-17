@@ -109,6 +109,17 @@ button:focus {
   padding: 1rem 1.25rem;
 }
 
+.modal-fade .modal-header {
+  display: flex;
+  -ms-flex-align: start;
+  align-items: flex-start;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  padding: 1rem;
+  border-top-left-radius: 3rem;
+  border-top-right-radius: 3rem;
+}
+
 .fullScreen-image img {
   max-width: 100%;
 }
@@ -160,6 +171,12 @@ button:focus {
   width: 100%;
   font-size: 22px;
   color: #ffffff;
+}
+
+.section-title {
+  font-size: 30px;
+  font-family: "libel suit", sans-serif;
+  text-align: center;
 }
 
 .tab-mobile-only {
@@ -510,12 +527,6 @@ footer .newsletter-form .btn-gray {
 #home-services {
   background-size: cover !important;
   height: 600px;
-}
-
-#ig-feed .section-title {
-  font-size: 30px;
-  font-family: "libel suit", sans-serif;
-  text-align: center;
 }
 
 #about-us.page-hero-image .page-image {
