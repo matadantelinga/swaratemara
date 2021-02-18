@@ -744,6 +744,10 @@ form select:focus {
   background-size: cover;
 }
 
+.content-wrapper .text-center {
+  padding-top: 20px;
+}
+
 #event-detail.page-hero-image .page-image {
   background: url(../images/banner-event2.jpg) center top no-repeat;
   background-size: cover;
