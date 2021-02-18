@@ -30,9 +30,9 @@
             <div class="text-title">
               Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris a
               tortor vestibulum, accumsan ligula ut, lobortis nisl.
-              Curabitur sit amet mollis tellus vel, ornare massa. 
+              Curabitur sit amet mollis tellus vel, ornare massa.
             </div>
-        </div>
+          </div>
         </div>
       </div>
     </div>
@@ -162,7 +162,7 @@
           <div class="post-image" style="background: url(./assets/images/dummy-post2.jpg);">
           </div>
           <div class="post-title">
-            DUMMY TITLE 
+            DUMMY TITLE
           </div>
         </div>
       </div>
@@ -189,5 +189,47 @@
       </div>
     </div>
   </div>
+  <!-- Modal -->
+  <div class="modal modal-transparent fade" id="modalregister" tabindex="-1" role="dialog" aria-labelledby="modalregister" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered modal-lg" role="document">
+      <div class="modal-content">
+        <div class="modal-header">
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+          </button>
+        </div>
+        <div class="modal-body">
+          <div class="image-register"></div>
+          <div class="modal-content-wrapper">
+            <div class="modal-title">JAKARTA VIRTUAL CONCERT</div>
+            <div class="modal-subtitle">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris a
+              tortor vestibulum, accumsan ligula ut</div>
+            <form class="form-linestyle" action="#">
+              <div class="input-group">
+                <label>Full Name</label>
+                <input type="text" class="form-control">
+              </div>
+              <div class="input-group">
+                <label>Phone Number</label>
+                <input type="text" class="form-control">
+              </div>
+              <div class="input-group">
+                <label>Email</label>
+                <input type="email" class="form-control">
+              </div>
+              <div class="form-submit">
+                <button type="submit" class="btn-line-gray">
+                  JOIN EVENT
+                </button>
+              </div>
+            </form>
+          </div>
+        </div>
+        <div class="modal-footer">
+        </div>
+      </div>
+    </div>
+  </div>
+  <!--End Modal -->
 </section>
 <?php include "footer.php"; ?>
