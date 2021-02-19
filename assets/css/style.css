@@ -124,16 +124,12 @@ button:focus {
 .post-image-container .section-content P {
   text-align: center;
 }
-.post-image-container .section-title {
-  font-family: "libel suit", sans-serif;
-  margin-bottom: 1.25em;
-}
 .post-image-container .post-image-item {
   position: relative;
   cursor: pointer;
 }
 .post-image-container .post-image-item .post-image {
-  margin: 2em 0 2em;
+  margin: 2em 0 0;
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
@@ -160,6 +156,14 @@ button:focus {
   width: 100%;
   font-size: 22px;
   color: #ffffff;
+}
+
+.faq-content {
+  padding-top: 30px;
+}
+
+.content-title {
+  padding-top: 30px;
 }
 
 .section-title {
@@ -427,6 +431,7 @@ header .nav-wrapper ul li a:hover {
 
 footer {
   border-top: solid 5px #686868;
+  margin-top: 30px;
 }
 footer .footer-contact {
   font-size: 14px;
@@ -622,10 +627,6 @@ footer .newsletter-form .btn-gray {
   background-size: cover;
 }
 
-.content-wrapper {
-  padding-top: 60px;
-  padding-bottom: 30px;
-}
 .content-wrapper .page-title {
   padding-top: 20px;
 }
@@ -744,6 +745,9 @@ form select:focus {
   background-size: cover;
 }
 
+.content-wrapper p {
+  padding-top: 30px;
+}
 .content-wrapper .text-center {
   padding-top: 20px;
 }
@@ -766,6 +770,10 @@ form select:focus {
 #Tnc.page-hero-image .page-image {
   background: url(../images/banner-about.jpg) center top no-repeat;
   background-size: cover;
+}
+
+.tnc-content p {
+  padding-top: 10px;
 }
 
 /*# sourceMappingURL=style.css.map */

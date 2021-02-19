@@ -137,15 +137,11 @@ button {
       text-align: center;
     }
   }
-  .section-title {
-    font-family: $main-font;
-    margin-bottom: 1.25em;
-  }
   .post-image-item {
     position: relative;
     cursor: pointer;
     .post-image {
-      margin: 2em 0 2em;
+      margin: 2em 0 0;
       background-position: center;
       background-size: cover;
       background-repeat: no-repeat;
@@ -177,6 +173,14 @@ button {
     font-size: 22px;
     color: #ffffff;
   }
+}
+
+.faq-content {
+  padding-top: 30px;
+}
+
+.content-title {
+  padding-top: 30px;
 }
 
 .section-title {
